@@ -4,7 +4,7 @@ class Queue<T> {
 
     private var front: Node<T>? = null
     private var rear: Node<T>? = null
-    var length = 0
+    var size = 0
         private set
 
     fun enqueue(value: T) {
@@ -12,14 +12,14 @@ class Queue<T> {
         front = front ?: node
         rear?.next = node
         rear = node
-        length++
+        size++
     }
 
     fun dequeue(): T {
         if (isEmpty()) throw NullPointerException("Empty queue")
         val temp = front
         front = front?.next
-        length--
+        size--
         return temp!!.value
     }
 
@@ -33,7 +33,7 @@ class Queue<T> {
         return rear!!.value
     }
 
-    fun isEmpty(): Boolean = length == 0
+    fun isEmpty(): Boolean = size == 0
 
     data class Node<V>(
         var value: V,

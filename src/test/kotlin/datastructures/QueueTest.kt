@@ -18,24 +18,24 @@ internal class QueueTest {
     @Test
     fun `enqueue should add element at last`() {
         assertEquals(2, queue.rear())
-        assertEquals(2, queue.length)
+        assertEquals(2, queue.size)
     }
 
     @Test
     fun `dequeue should remove first element`() {
         assertEquals(1, queue.dequeue())
-        assertEquals(1, queue.length)
+        assertEquals(1, queue.size)
     }
 
     @Test
     fun `peek should return first element in queue without removing it`() {
         assertEquals(1, queue.peek())
-        assertEquals(2, queue.length)
+        assertEquals(2, queue.size)
     }
 
     @Test
     fun `rear should return last element in queue without removing it`() {
         assertEquals(2, queue.rear())
-        assertEquals(2, queue.length)
+        assertEquals(2, queue.size)
     }
 }
