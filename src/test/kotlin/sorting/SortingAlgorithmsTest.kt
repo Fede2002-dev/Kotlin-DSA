@@ -1,9 +1,6 @@
 package sorting
 
-import algoritms.sorting.bubbleSort
-import algoritms.sorting.insertionSort
-import algoritms.sorting.mergeSort
-import algoritms.sorting.selectionSort
+import algoritms.sorting.*
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
@@ -39,5 +36,11 @@ class SortingAlgorithmsTest {
     @Test
     fun mergeSort() {
         assertArrayEquals(orderedArray, disorderedArray.mergeSort())
+    }
+
+    @Test
+    fun quickSort() {
+        disorderedArray.quickSort()
+        assertArrayEquals(orderedArray, disorderedArray)
     }
 }
