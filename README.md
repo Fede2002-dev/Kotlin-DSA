@@ -15,3 +15,4 @@ In this project I try to give my own implementation of commons data structures a
 - [Insertion sort](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/algoritms/sorting/InsertionSort.kt)
 - [Selection sort](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/algoritms/sorting/SelectionSort.kt)
 - [Merge sort](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/algoritms/sorting/MergeSort.kt)
+- [Quick sort](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/algoritms/sorting/QuickSort.kt)
