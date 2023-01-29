@@ -9,3 +9,9 @@ In this project I try to give my own implementation of commons data structures a
 - [Hash Table](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/datastructures/HashTable.kt)
 - [Binary Tree](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/datastructures/BinaryTree.kt)
 - [Binary Search Tree](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/datastructures/BinarySearchTree.kt)
+
+# List of Algorithms
+- [Bubble sort](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/algoritms/sorting/BubbleSort.kt)
+- [Insertion sort](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/algoritms/sorting/InsertionSort.kt)
+- [Selection sort](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/algoritms/sorting/SelectionSort.kt)
+- [Merge sort](https://github.com/Fede2002-dev/Kotlin-DSA/blob/main/src/main/kotlin/algoritms/sorting/MergeSort.kt)
